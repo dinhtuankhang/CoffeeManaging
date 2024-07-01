@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       <App/>
     </ProtectedRoute>,
   },
+    {
+    path:"/coffeeManagement",
+    element:<Introduction/>
+  },
   {
     path: "/introduction",
     element: <Introduction/>
